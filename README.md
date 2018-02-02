@@ -25,3 +25,6 @@ I.E. grid-template-columns : repeat(5, 1fr) creates 5 columns, each one taking t
 
 # Lesson 09
 Learned about spanning attribute of grid. Use it in the following manner: grid-column/row : span #amountToSpan
+
+# Lesson 10
+Learned about sizing of grid elements. The default attributes to use are : grid-column/row-start and grid-column/row-end. You can use the following attributes for a shortcut : grid-column/row : #startIndex / #endIndex. I.E. grid-column : 1 / 5 (You can use -1 to span across the whole grid)

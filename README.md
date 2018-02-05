@@ -31,3 +31,6 @@ Learned about sizing of grid elements. The default attributes to use are : grid-
 
 # Lesson 11
 Grid exercises
+
+# Lesson 12
+Learned about auto-fill and auto-fit. The difference between the two is that auto-fit will shrink down the explicit grid to how many elements are really present. Auto-fill will set the grid to be as wide as it can and will try to fit as many elements as it can. A use case for auto-fill is, if you have a bunch of elements, but you one to always be on the end (far right or far left), using auto-fill and grid-column-end will always place it there. Using auto-fit will just place it at the end of the grid, which may not be the margin of the whole width of the layout.

@@ -38,3 +38,6 @@ Learned about **auto-fill** and **auto-fit**. The difference between the two is 
 ## Lesson 13
 Learned about **minmax(MIN_VALUE, MAX_VALUE)** property for grid-template-columns/rows. Minmax accepts two values which singify the minimum and maximum an element on a track can take. I.E. `grid-template-columns : repeat(auto-fit, minmax(150px, 1fr));`
 Also learned about **fit-content(VALUE)** which similarly to minmax, caps the amount of space an element in a track can take. I.E. `grid-template-columns: fit-content(100px) 150px 150px 150px; //Caps the first column to be 100px wide, while the other columns are 150px`.
+
+## Lesson 14
+Learned about **grid-template-areas** property. Using grid-template-areas, you define the place in the grid that your content will be in. This is handy, since you don't have to calibrate and fine tune each area in your grid and also when combining it with media queries, all you have to do is just redefine the grid-template-areas property. 

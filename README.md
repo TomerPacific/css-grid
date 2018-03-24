@@ -41,3 +41,18 @@ Also learned about **fit-content(VALUE)** which similarly to minmax, caps the am
 
 ## Lesson 14
 Learned about **grid-template-areas** property. Using grid-template-areas, you define the place in the grid that your content will be in. This is handy, since you don't have to calibrate and fine tune each area in your grid and also when combining it with media queries, all you have to do is just redefine the grid-template-areas property. You do not have to use words to name your areas inside of your grid. You can use emojis.
+
+## Lesson 15
+Learned about naming columns/rows to enable easier use when styling start/end of grid items. Instead of using the index of the column/row, you can insert names when declaring the amount of columns/rows. 
+
+I.E.
+
+`grid-template-columns: [site-left] 1fr [content-start] 500px [content-end] 1fr [site-right];`
+`grid-template-rows: [content-top] repeat(10, auto) [content-bottom];`
+
+And placing your grid item with the following rules :
+
+`.item3 {
+      grid-column: content-start;
+      grid-row: content-top / content-bottom;
+    }`

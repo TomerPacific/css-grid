@@ -56,3 +56,9 @@ And placing your grid item with the following rules :
       grid-column: content-start;
       grid-row: content-top / content-bottom;
     }`
+
+## Lesson 16
+
+Learned about **grid-auto-flow**. What this property does, is tell the grid to fill up any space that is left between grid elements. This happens if, for instance, you have an element that is too wide for a grid row, and because of this, it is moved to a new row. What you have left is a space on the top row with no elements in and using this property, the grid starts placing elements from where there is space and not from where the last element ended.
+
+`grid-auto-flow : dense;`
